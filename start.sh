@@ -23,6 +23,6 @@
 #
 ## Run your glorious application
 #$VIRTUALENV/bin/python3 flask_app.py
-python3 -m pip install -U pip
-python3 -m pip install -r requirements.txt
-python3 flask_app.py
+python -m pip install -U pip
+python -m pip install -r requirements.txt
+python flask_app.py
